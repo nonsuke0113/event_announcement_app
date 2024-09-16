@@ -22,3 +22,11 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## Setup
+```sh
+# docker compose run --no-deps web rails new . --force --database=postgresql --skip-action-mailbox --skip-action-text --skip-action-cable
+docker compose build
+docker compose up
+docker compose run web bundle exec rails db:create
+```

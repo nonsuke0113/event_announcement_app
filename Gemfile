@@ -58,3 +58,7 @@ gem 'html2haml', '~> 2.3.0'
 
 gem 'bootstrap'
 gem 'jquery-rails'
+
+gem 'omniauth'
+gem 'omniauth-github'
+gem 'omniauth-rails_csrf_protection'

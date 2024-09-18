@@ -29,4 +29,7 @@ Things you may want to cover:
 docker compose build
 docker compose up
 docker compose run web bundle exec rails db:create
+
+# HACK: 「Error: Cannot find package '@babel/plugin-proposal-private-methods' imported from /myapp/babel-virtual-resolve-base.js」になっており、link_to method: deleteが効かなかった為、追加
+docker compose run web bin/yarn add --dev @babel/plugin-proposal-private-methods
 ```
